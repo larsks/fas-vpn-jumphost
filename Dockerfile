@@ -6,7 +6,8 @@ RUN yum -y install \
 	openssh-clients \
 	openssh-server \
 	iputils \
-	iproute
+	iproute \
+	bind-utils
 
 RUN useradd -c 'VPN User' vpn
 
